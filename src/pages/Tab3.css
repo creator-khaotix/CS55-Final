@@ -1,0 +1,31 @@
+.movie-card {
+  margin: 10px 0;
+}
+
+.movie-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.movie-image {
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #e0e0e0;
+}
+
+.movie-details {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.movie-detail-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+}
